@@ -38,3 +38,23 @@ section {
 .four {
     background-color: tomato;
 }
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.third {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}

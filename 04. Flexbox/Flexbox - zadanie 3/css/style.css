@@ -38,3 +38,35 @@ section {
 .four {
     background-color: tomato;
 }
+
+.first {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.third {
+    display: flex;
+}
+
+.third .square:nth-of-type(1) {
+    order: 2;
+    flex: 2;
+}
+.third .square:nth-of-type(2) {
+    order: 3;
+}
+
+.third .square:nth-of-type(3) {
+    order: 1;
+}
+
+.third .square:nth-of-type(4) {
+    order: 4;
+    flex: 4;
+}
