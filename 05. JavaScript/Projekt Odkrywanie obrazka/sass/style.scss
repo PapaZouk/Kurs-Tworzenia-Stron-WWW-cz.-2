@@ -26,7 +26,7 @@ body {
 
 .item2 {
     height: 300px;
-    background-image: url('https://cdn.pixabay.com/photo/2014/05/03/00/56/summerfield-336672_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg');
     background-position: center;
 }
 
@@ -58,6 +58,12 @@ section {
     }
 
     .fas {
-        transition: transform .6s
+        transition: transform .6s, border-color .9s;
     }
+
+    .fas-transform {
+        transform: rotate(180deg);
+        border-color: rgb(128, 240, 255);
+    }
+    
 }
